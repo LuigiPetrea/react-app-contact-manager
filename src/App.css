@@ -1,3 +1,62 @@
 .App {
   text-align: center;
 }
+
+
+/* ==== content home ==== */
+.content-inputs-home{
+    border-radius: 10px;
+    color: white;
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 100px;
+    padding: 40px;
+    background: url('bg2.svg');
+    background-size: 1000px;
+    background-color: aqua;
+}
+/* ==== inputs ==== */
+.inputs{
+    margin: 10px;
+    padding: 5px;
+    width: 10rem;
+}
+.btn{
+    transition: .5s ease-in-out;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    font-size: large;
+}
+.btn:hover{
+    color: white;
+    background: rgba(0, 0, 0, 0.651);
+    transform: scale(1.05);
+    box-shadow: -5px -5px 5px black;
+}
+
+.txt-go-list{
+    text-align: right;
+    margin-bottom: -20px;
+    font-size: large;
+}
+
+/* ==== table ==== */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background: rgba(0, 0, 0, 0.527);
+    padding: 10px;
+}
+th:hover{
+    background: rgba(0, 0, 0, 0.427);
+}
+td{  
+    font-size: 17px;
+}
+td:hover{
+    background: rgba(0, 0, 0, 0.127);
+}
